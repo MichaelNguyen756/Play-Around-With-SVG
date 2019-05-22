@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    width: 50%;
+    height: 50%;
+}
+
+#svgCanvas {
+    height: 100%;
+    width: 100%;
+}
