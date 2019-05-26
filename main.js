@@ -17,7 +17,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     linePath.closePath();
 
     d3.select('#svgCanvas')
-        .attr('viewBox', "0 0 100 100")
         .append('path')
         .attr('d', linePath.toString())
         .attr('id', 'unfilledArrow');
