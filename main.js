@@ -21,11 +21,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
         .attr('d', linePath.toString())
         .attr('id', 'unfilledArrow');
     
-    let newLinePathContext = d3.path();
-    newLinePathContext.moveTo(50, 0);
-    newLinePathContext.lineTo(50, 0);
+    // let newLinePathContext = d3.path();
+    // newLinePathContext.moveTo(50, 0);
+    // newLinePathContext.lineTo(50, 0);
 
-    d3.select('#svgCanvas')
-        .append('path')
-        .attr('d', linePath.toString());
+    // d3.select('#svgCanvas')
+    //     .append('path')
+    //     .attr('d', linePath.toString());
 });
